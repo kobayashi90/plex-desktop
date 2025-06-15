@@ -49,7 +49,7 @@ jobs:
             --tray \
             --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" \
             --chromium-args="--ignore-gpu-blacklist --ignore-certificate-errors" \
-            "https://plex.yourdomain.com" output/
+            "https://plex.amaterasu.network" output/
 
       - name: Build app with Nativefier (Windows)
         if: matrix.os == 'windows'
@@ -65,7 +65,7 @@ jobs:
             --tray \
             --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" \
             --chromium-args="--ignore-gpu-blacklist --ignore-certificate-errors" \
-            "https://plex.yourdomain.com" output/
+            "https://plex.amaterasu.network" output/
 
       - name: List output folder contents (macOS)
         if: matrix.os == 'macos'
