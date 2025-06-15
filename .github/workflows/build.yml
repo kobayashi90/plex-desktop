@@ -47,7 +47,6 @@ jobs:
             --enable-dev-tools \
             --single-instance \
             --tray \
-            --chromium-args="--ignore-gpu-blacklist" \
             "https://plex.amaterasu.network" output/
 
       - name: Build app with Nativefier (Windows)
@@ -62,7 +61,6 @@ jobs:
             --enable-dev-tools \
             --single-instance \
             --tray \
-            --chromium-args="--ignore-gpu-blacklist" \
             "https://plex.amaterasu.network" output/
 
       - name: List output folder contents (macOS)
